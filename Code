@@ -2,7 +2,7 @@ import numpy as np
 import cv2
 import time
 import datetime
-cap = cv2.VideoCapture('C:/Users/shahb/Downloads/05_05.mp4') #Open video file
+cap = cv2.VideoCapture('Location of video file else 1') #Open video file
 fgbg = cv2.createBackgroundSubtractorMOG2(detectShadows = True) #Create the background substractor
 kernelOp = np.ones((3,3),np.uint8)
 kernelCl = np.ones((11,11),np.uint8)
